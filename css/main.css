@@ -47,9 +47,6 @@ h5 {
 .btn-large {
 	padding: 15px 40px;
 }
-/* ------------------------------------------------------------------------------
-	Global Styles
--------------------------------------------------------------------------------*/
 a {
 	color: #e84545;
 }
@@ -64,6 +61,8 @@ body {
 	font-family: "Cutive Mono";
 	font-weight: 400;
 	color: #fff;
+	background: url(https://images.wallpaperscraft.ru/image/anime_shkola_zima_ulica_674_1920x1080.jpg);
+	background-attachment: fixed;
 }
 ul, ol {
 	margin: 0;
@@ -277,13 +276,24 @@ ul li {
 
 .hero {
 	margin-top: 10%;
-	margin-left: 200px;
+	margin-left: 180px;
+
 }
-.hero-content {
+.hero-content h2{
+	font-family: 'Cuprum', sans-serif;
+	text-align: center;
+	margin-left: -100px;
+	color: #eee8aa;
 }
+
 .hero h1 {
-	font-size: 48px;
-	text-transform: uppercase;
+	color: blue;
+	font-size: 35px;
+	background: white; 
+    color: purple; 
+    padding: 1px; 
+    margin-right: 200px;
+
 }
 .hero h4 {
 	font-weight: 400;
@@ -367,33 +377,6 @@ ul li {
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #000;
-}
-/* ------------------------------------------------------------------------------
-	 Footer
--------------------------------------------------------------------------------*/
-.footer {
-	text-align: left;
-	background-color: #333;
-	padding: 7%;
-}
-.footer h4 {
-	color: #fff;
-	margin: 0 0 15px 0;
-	padding: 0px;
-}
-.footer p {
-	color: #c8c8c8;
-}
-.footer a {
-	color: #fff;
-}
-.footer a:hover {
-	text-decoration: underline;
-}
-.footer .fa-heart {
-	color: #e84545;
-	font-size: 11px;
-	margin: 0 2px;
 }
 /* ------------------------------------------------------------------------------
 	 Work Details
